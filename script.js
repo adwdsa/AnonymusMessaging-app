@@ -21,12 +21,4 @@ document.getElementById('sendButton').addEventListener('click', function() {
     }
 });
 
-// For demonstration purposes, simulate receiving a message from another user
-setInterval(() => {
-    const messagesContainer = document.getElementById('messages');
-    const messageElement = document.createElement('div');
-    messageElement.classList.add('message', 'other');
-    messageElement.textContent = "This is a message from another user.";
-    messagesContainer.appendChild(messageElement);
-    messagesContainer.scrollTop = messagesContainer.scrollHeight;
-}, 5000); // Simulate receiving a message every 5 seconds
+// For demonstration purposes, simulate receiving a message from another use
